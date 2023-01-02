@@ -1,0 +1,50 @@
+{
+    "type":"SoC",
+    "name":"BK7231",
+    "title": "bekencorp BK7231",
+    "description":"Wi-Fi/BLE SoC BK7231",
+    "version":"1.0.0",
+    "Core": {
+        "num": 1,
+        "type":"MCS-51",
+        "Freq":[1,120],
+        "DMIPS": 40,
+        "CoreMark": 80
+    },
+    "manufacturer": {
+        "vendor":"bekencorp",
+        "homepage": "http://www.bekencorp.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/BK7231.git"
+    },
+    "support": {
+        "type": "mail",
+        "mail": "info@bekencorp.com"
+    },
+    "series":["BK7231"],
+    "package":["QFN40","QFN32"],
+    "peripheral": ["ETC","5.8GHz","BLE","ADC","SDIO","UART","SPI","DVP","PWM"],
+    "price":[3,9],
+    "EMC": {
+        "EFT": 2000,
+        "ESD": 4000
+    },
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
+    },
+    "upload": {
+        "ISP": true,
+        "IAP": true,
+        "SWD": true,
+        "speed": 115200
+    },
+    "keywords": [
+        "bekencorp",
+        "BK7231",
+        "Wi-Fi","BLE","SDIO","UART","I2C","SPI",
+        "1.8V","3.3V"
+    ]
+}
